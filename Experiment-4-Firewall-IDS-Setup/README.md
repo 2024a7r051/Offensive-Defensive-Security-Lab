@@ -85,13 +85,13 @@ A **firewall** controls incoming and outgoing network traffic according to prede
 
 From Kali Linux, generate test traffic toward Metasploitable 2:
 
-ping -c 3 <Metasploitable-IP>
+ping -c 3 METASPLOITABLE_IP
 
 Perform a test scan:
 
-nmap -sS <Metasploitable-IP>
+nmap -sS METASPLOITABLE_IP
 
-Replace <Metasploitable-IP> with the actual IP address assigned to Metasploitable 2.
+Replace <METASPLOITABLE_IP> with the actual IP address assigned to Metasploitable 2.
 
 ### Step 10: Observe Snort Alerts
 
