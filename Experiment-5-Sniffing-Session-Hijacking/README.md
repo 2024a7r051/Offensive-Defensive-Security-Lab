@@ -28,15 +28,21 @@ Check the gateway using:
 
 ip route
 
+![IP Address](images/step1-ip-address.png)
+
 **Step 2: Enable IP Forwarding**
 
 On Kali Linux, enable packet forwarding:
 
 sudo sysctl -w net.ipv4.ip_forward=1
 
+![IP Forwarding](images/step2-enable-ip-forwarding.png)
+
 **Step 3: ARP Spoofing**
 
 Use `arpspoof` in an isolated lab to demonstrate how false ARP messages can affect communication between lab systems. Confirm the correct interface, victim IP, and gateway IP before testing.
+
+![Wireshark ARP Capture](images/step3-wireshark-arp-capture.png)
 
 **Step 4: Capture Traffic in Wireshark**
 
@@ -48,6 +54,8 @@ Select the lab network interface and start capturing packets. Use the display fi
 
 arp
 
+![IP Neighbor Table](images/step4-ip-neighbor-table.png)
+
 **Step 5: Filter Victim Traffic**
 
 Use the victim's IP address to filter relevant packets:
@@ -56,11 +64,15 @@ ip.addr == <Victim-IP>
 
 Observe the captured packets and ARP communication.
 
+![Wireshark Traffic Analysis](images/step5-wireshark-traffic-analysis.png)
+
 **Step 6: Visit the Test Website**
 
 From Kali Linux, open the authorized lab website in a browser. Alternatively, use the terminal to request a page:
 
 curl http://<Lab-Web-IP>/
+
+![Browser Session Inspection](images/step6-browser-session-inspection.png)
 
 **Step 7: Observe Login and Session Cookies**
 
