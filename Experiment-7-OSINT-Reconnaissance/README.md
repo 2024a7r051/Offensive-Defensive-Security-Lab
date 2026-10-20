@@ -17,6 +17,8 @@ OSINT (Open Source Intelligence) is the process of collecting information from p
 
 Open a web browser and visit Google Search.
 
+![Google Dorking](images/step1-google-dorking.png)
+
 **Step 2: Perform Google Dorking**
 
 Enter search queries to find publicly indexed information about an authorized target.
@@ -26,13 +28,19 @@ Examples:
 - site:example.com filetype:pdf
 - site:example.com inurl:login
 
+![Google Search Results](images/step2-google-search.png)
+
 **Step 3: Analyze Google Results**
 
 Review the results and identify relevant public webpages, documents and directories. Record the findings.
 
+![Shodan Search](images/step3-shodan-search.png)
+
 **Step 4: Open Shodan**
 
 Visit https://www.shodan.io/ and create a free account if required.
+
+![Shodan Port 80 Results](images/step4-shodan-port80.png)
 
 **Step 5: Enter Shodan Queries**
 
@@ -43,9 +51,13 @@ Examples:
 - port:21 country:"IN"
 - product:"MongoDB"
 
+![Shodan Port 443 Results](images/step5-shodan-port443.png)
+
 **Step 6: Analyze Shodan Results**
 
 Observe the displayed IP addresses, open ports, service details and banners for authorized targets.
+
+![Shodan Apache Results](images/step6-shodan-apache.png)
 
 **Step 7: Record Findings**
 
