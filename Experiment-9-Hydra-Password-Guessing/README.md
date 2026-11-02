@@ -6,17 +6,7 @@ To understand password guessing attacks using Hydra and test password security i
 
 ## Requirements
 
-Kali Linux
-
-Metasploitable 2
-
-VirtualBox
-
-Hydra tool
-
-SSH or FTP service
-
-Password wordlist
+Kali Linux,Metasploitable 2,VirtualBox,Hydra tool,SSH or FTP service,Password wordlist
 
 ## Theory
 
@@ -24,23 +14,41 @@ Hydra is a password-testing tool used to perform automated login attempts agains
 
 ## Procedure
 
-## Step 1:Start Kali Linux and Metasploitable 2 in VirtualBox.
+## Step 1:
 
-## Step 2:Connect both machines to the same isolated lab network.
+Start Kali Linux and Metasploitable 2 in VirtualBox.
 
-## Step 3:Find the IP address of the target machine.
+## Step 2:
 
-## Step 4:Check whether SSH or FTP service is running on the target.
+Connect both machines to the same isolated lab network.
 
-## Step 5:Open the Kali Linux terminal and verify that Hydra is installed.
+## Step 3:
 
-## Step 6:Prepare a small password wordlist for testing. Kali also provides wordlists such as /usr/share/wordlists/rockyou.txt.
+Find the IP address of the target machine.
 
-## Step 7:Use Hydra only against the authorized lab target to perform controlled password testing.
+## Step 4:
 
-## Step 8:Observe the output and identify weak test credentials, if any.
+Check whether SSH or FTP service is running on the target.
 
-## Step 9:Record the findings and recommend strong passwords and account protection measures.
+## Step 5:
+
+Open the Kali Linux terminal and verify that Hydra is installed.
+
+## Step 6:
+
+Prepare a small password wordlist for testing. Kali also provides wordlists such as /usr/share/wordlists/rockyou.txt.
+
+## Step 7:
+
+Use Hydra only against the authorized lab target to perform controlled password testing.
+
+## Step 8:
+
+Observe the output and identify weak test credentials, if any.
+
+## Step 9:
+
+Record the findings and recommend strong passwords and account protection measures.
 
 ## Result:
 
