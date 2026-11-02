@@ -50,10 +50,10 @@ Observe the output and identify weak test credentials, if any.
 
 Record the findings and recommend strong passwords and account protection measures.
 
-## Result:
+## Result
 
 Successfully studied password guessing using Hydra in a controlled virtual lab environment.
 
-## Conclusion:
+## Conclusion
 
 The experiment demonstrated the risks of weak passwords and highlighted the importance of strong passwords and secure authentication.
