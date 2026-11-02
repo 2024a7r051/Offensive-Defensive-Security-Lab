@@ -7,10 +7,15 @@ To understand password guessing attacks using Hydra and test password security i
 ## Requirements
 
 Kali Linux
+
 Metasploitable 2
+
 VirtualBox
+
 Hydra tool
+
 SSH or FTP service
+
 Password wordlist
 
 ## Theory
