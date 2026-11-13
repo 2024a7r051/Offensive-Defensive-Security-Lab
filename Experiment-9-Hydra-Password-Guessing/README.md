@@ -34,17 +34,25 @@ Check whether SSH or FTP service is running on the target.
 
 Open the Kali Linux terminal and verify that Hydra is installed.
 
+![Screenshot 1](images/step1-hydra-execution.png)
+
 ## Step 6:
 
 Prepare a small password wordlist for testing. Kali also provides wordlists such as /usr/share/wordlists/rockyou.txt.
+
+![Screenshot 2](images/step2-password-file.png)
 
 ## Step 7:
 
 Use Hydra only against the authorized lab target to perform controlled password testing.
 
+![Screenshot 3](images/step3-ip-ping.png)
+
 ## Step 8:
 
 Observe the output and identify weak test credentials, if any.
+
+![Screenshot 4](images/step4-nmap-scan.png)
 
 ## Step 9:
 
