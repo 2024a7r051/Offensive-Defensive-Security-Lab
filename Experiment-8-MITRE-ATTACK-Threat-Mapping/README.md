@@ -19,37 +19,55 @@ Nmap (Network Mapper) is a network reconnaissance tool used to identify active h
 
 Set up Kali Linux and Metasploitable 2 as attacker and target machines in VirtualBox.
 
+![Screenshot 1](images/step1-ip-ping.png)
+
 ## Step 2:
 
 Start both virtual machines and connect them to the same lab network.
+
+![Screenshot 2](images/step2-metasploit-console.png)
 
 ## Step 3:
 
 Find the IP address of the target machine.
 
+![Screenshot 3](images/step3-nmap-scan.png)
+
 ## Step 4:
 
 Open the Kali Linux terminal and perform host discovery using Nmap.
+
+![Screenshot 4](images/step4-exploit-result.png)
 
 ## Step 5:
 
 Scan the target machine to identify open ports and services.
 
+![Screenshot 5](images/step5-exploit-options.png)
+
 ## Step 6:
 
 Open Nessus and create a new vulnerability scan.
+
+![Screenshot 6](images/step6-system-info.png)
 
 ## Step 7:
 
 Enter the target machine's IP address and start the scan.
 
+![Screenshot 7](images/step7-attack-matrix.png)
+
 ## Step 8:
 
 Analyze the scan report and identify the vulnerabilities found.
 
+![Screenshot 8](images/step8-attack-technique.png)
+
 ## Step 9:
 
 Record the findings and suggest suitable security measures.
+
+![Screenshot 9](images/step9-defense-impairment.png)
 
 ## Result
 Successfully studied network scanning using Nmap and vulnerability detection using Nessus.
