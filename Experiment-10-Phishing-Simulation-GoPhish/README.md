@@ -20,29 +20,43 @@ GoPhish is an open-source phishing simulation tool used for security awareness t
 
 Download and set up the GoPhish tool on the computer.
 
+![GoPhish Installation](images/step1-gophish-installation.png)
+
 ## Step 2:
 
 Start GoPhish and open its administration interface in a web browser.
+
+![Sending Profiles](images/step3-sending-profiles.png)
 
 ## Step 3:
 
 Log in to the GoPhish dashboard.
 
+![Dashboard](images/step2-gophish-dashboard.png)
+
 ## Step 4:
 
 Create a test email template for the phishing awareness campaign.
+
+![Email Templates](images/step4-email-templates.png)
 
 ## Step 5:
 
 Set up a landing page for the simulation without collecting real passwords or sensitive information.
 
+![Landing Pages](images/step5-landing-pages.png)
+
 ## Step 6:
 
 Add authorized test recipients to the campaign.
 
+![MailHog](images/step6-mailhog-interface.png)
+
 ## Step 7:
 
 Configure the campaign using the created email template and landing page.
+
+![Users and Groups](images/step7-users-and-groups.png)
 
 ## Step 8:
 
@@ -51,6 +65,8 @@ Launch the simulation only for authorized test users in the controlled lab envir
 ## Step 9:
 
 Observe the campaign results and analyze user responses.
+
+![Campaign Results](images/step8-phishing-campaign-results.png)
 
 ## Step 10:
 
